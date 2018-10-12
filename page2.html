@@ -1,0 +1,38 @@
+<!doctype html>
+
+<html>
+  <head>
+  <title> Kevin's Website </title>
+  <link href="kzstylesheet.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h2> This is the second page of an awesome website!</h2>
+  <hr />
+  <h2> Aspirations </h2>
+  <p> I'm excited to be part of the Galvanize community and learn all the skills of a modern full-stack developer alongside the talented folks in cohort G106.
+  I am eager to learn web development because I've always been fascinated by the web's ability to spread ideas and share engaging media in numerous forms.
+    After Galvanize, I would love to work for a content-sharing platform like Vimeo, Youtube or Instagram.</p>
+  <img src="giphy.gif" height=150 id="imgToSwap"/>
+  <p> </p>
+  <input id="button" type="button" value="Transform" onclick="click();"/>
+  <p> </p>
+  <a href="index.html" title="navigation! woop woop"> Link to homepage </a>
+  <script>
+  //let isSwapped = false
+  $("button").click(function() {
+    $('imgToSwap').attr('src', 'giphy2.jpg')
+    /*if (isSwapped === true) {
+      $('imgToSwap').attr('src', 'giphy.gif')
+      isSwapped = false
+    } else {
+      $('imgToSwap').attr('src', 'giphy2.jpg')
+      isSwapped = true
+    }*/
+
+
+  });
+  </script>
+</body>
+
+</html>
